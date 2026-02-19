@@ -5,6 +5,11 @@ b = 1
 print(a + b)
 print(type(a)) #checking data type: integer
 
+# We can also declare more then 1 variable in one line using a comma
+x, y, z = 1, 2.5, "Hello"
+print(x) # Output: 1
+print(y) # Output: 2.5
+print(z) # Output: Hello
 
 c= "1"
 d= "1"
