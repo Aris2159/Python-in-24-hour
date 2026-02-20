@@ -6,9 +6,11 @@
 # We will be focusing on the if statement in this code snippet.
 #The loops will be covered in Loops.py
 
+
 # if = Do something only if the condition is true
 # elif = Do something else if the previous condition is false and this condition is true
 # else = Do something if all the previous conditions are false
+
 
 # You can use comparison operators to compare values in conditions. For example:
 # == (equal to)
