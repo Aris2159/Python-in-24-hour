@@ -18,6 +18,11 @@ print("-" * 40)  # Separator for output clarity
 
 
 # Looping Over Lists with Index using enumerate()
+# enumerate() allows you to loop over something and get both:
+
+# The index (position)
+# The value
+
 for index, fruit in enumerate(fruits):
     # 'index' is the position, 'fruit' is the value
     print(f"Index {index}: {fruit}")

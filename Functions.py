@@ -42,6 +42,10 @@ result = multiply(4, 5)
 print(result)  # Output: 20
 
 # You can also use conditional statements (if, elif, else) in a function to perform different actions based on certain conditions.
+
+# Recursive functions are functions that call themselves in order to solve a problem. 
+# They typically have a base case that stops the recursion and a recursive case that breaks the problem into smaller subproblems.
+
 def factorial(n):
     #  The factorial of a non-negative integer n is the product of all positive integers less than or equal to n. 
     #  The factorial of 0 is defined to be 1. The factorial function can be defined recursively as follows:

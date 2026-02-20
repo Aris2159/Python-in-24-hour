@@ -60,19 +60,26 @@ print(nested_set2) # Output: {frozenset({1, 2}), frozenset({3, 4})}
 # You can perform normal set operations on sets containing tuples or frozensets
 a = { (1, 2), (3, 4) }
 b = { (3, 4), (5, 6) }
+
 print(a.union(b))        # Output: {(1, 2), (3, 4), (5, 6)}
+
 print(a.intersection(b)) # Output: {(3, 4)}
+
 # The difference() method returns a set that contains the items that are in the first set but not in the second set. For example:
 print(a.difference(b))   # Output: {(1, 2)}
 
 
 # you can also use and, or, and not operators for set operations
 print(a | b)  # Union → {(1, 2), (3, 4), (5, 6)}
+
 print(a & b)  # Intersection → {(3, 4)}
+
 print(a - b)  # Difference → {(1, 2)}
 
 print(a and b)  # Intersection → {(3, 4)}
+
 print(a or b)   # Union → {(1, 2), (3, 4), (5, 6)}
+
 print(not a)    # False, because a is not empty
 
 
